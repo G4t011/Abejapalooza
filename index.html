@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abejapalloza & Festival Espiral</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Abejapalloza & Festival Espiral</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cuerpo del video -->
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>The Victims</h2>
+                <p>30 Abril 2022, Guanajuato, México</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <!-- Las propiedades dadas sirven para correr video y quitar sonido ya que algunos navegadores no funcionan con sonido -->
+            <!-- Se enlistan los distintos videos que se tiene -->
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <!-- Descripcion del evento -->
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+
+        </div>
+        <div class="contenido-festival">
+            <h2> Abejapalloza & Festival Espiral</h2>
+            <p class="fecha">30 de Abril 2022, Guanajuato, México</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis pariatur necessitatibus ipsa molestias, nam dolor quis harum sit ut dolorem aliquid nostrum ea praesentium amet in, nobis est a quae!</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Sabado 30</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>The Victims</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Los Chulitos</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Natural Tesla</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Covra</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Eugenio Becerril</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Nectar</span>
+                    </li>
+                </ul>
+            </div><!-- finaliza .escenario -->
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario ARTES</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Laura Guerrero</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Orquesta Sinfonica UG</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Luis RR Violin</span>
+                    </li>
+                    <li>
+                        19:00 | <span>DJ Avelar</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Te de Corazón</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Teatro Callejero UG</span>
+                    </li>
+                </ul>
+            </div><!-- finaliza .escenario -->
+
+        </div> <!-- finaliza .escenarios-contenedor -->
+
+        <p class="dia">Domingo 1</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Let us Play</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Charles</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Kaffe Raccerz</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Alien de Oca</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Grisly</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Delinquere</span>
+                    </li>                    
+                </ul>
+            </div><!-- finaliza .escenario -->
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario ARTES</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Trenzados UG</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Recital de Piano</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Vibaile ballet</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Ultramareadas</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Ensamble barroco</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div><!-- finaliza .escenario -->
+
+        </div> <!-- finaliza .escenarios-contenedor -->
+
+    </section> <!-- Fin de la seccion de Line up     -->
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galeria</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <footer class="site-footer">
+        <p>Abejapalloza & Foro Espiral. Todos los derechos reservados &#174</p>
+    </footer>
+
+    <!-- scripts siempre al final antes del cierre body -->
+    <script src="build/js/app.js"> </script>
+</body>
+</html>
